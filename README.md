@@ -3,7 +3,7 @@ A simple Arduino based square wave generator.
 
 This simple signal generator will produce a 1kHz square wave when the Arduino is powered up.
 
-If you connect to it using a serial monitor (PuTTy or the serial monitor in the Arduino IDE) at 115200 buad, then you can send it commands to generate different frequencies.
+If you connect to it using a serial monitor (PuTTy or the serial monitor in the Arduino IDE) at 115200 baud, then you can send it commands to generate different frequencies.
 
 The generator works for frequencies between 32Hz and 1MHz.  Not all frequencies are allowed - the dividers used for the timer can't be set to generate all frequencies.
 
